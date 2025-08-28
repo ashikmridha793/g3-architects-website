@@ -51,11 +51,6 @@ main > section {
 }
 
 
-/*header style*/
-
-
-
-
 /* navbar related style */
 .navbar {
     justify-content: space-between;
@@ -236,13 +231,10 @@ main > section {
    .sponsor-companies{
     grid-template-columns: repeat(1, 1fr);
    }
-   .fact-container {
+   .fact-container{
     justify-items: center;
     gap: 20px;
    }
-   .sponsor-companies{
-    justify-items: center;
-    gap: 50px;
    }
    .sponsor-companies{
     justify-items: center;
@@ -252,13 +244,13 @@ main > section {
    {
     margin-left: 20px;
    }
-   #experience-badge{
+   #experience-badge, .our-features{
     margin-top: 20px;
     margin-left: 20px;
    }
    .footer-content{
     margin: 50px 20px;
-    padding: 10px 20px;
+    padding: 10px 10px;
    }
 }
 
